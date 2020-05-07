@@ -1,12 +1,13 @@
 {
   "name": "v1",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "tailwindcss": "^1.4.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
