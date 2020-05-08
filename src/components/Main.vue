@@ -32,6 +32,10 @@ export default {
       type: String,
       default: ""
     },
+    imageUrl: {
+      type: String,
+      default: ""
+    },
     name: {
       type: String,
       default: ""
