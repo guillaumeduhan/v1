@@ -1,27 +1,27 @@
 <template>
   <div id="app" class="flex flex-col">
     <Main
-      description="As a Front-End developer since 10 years now, I enjoy creating beautiful apps on Javascript Frameworks."
-      name="Guillaume Duhan."
       :social="links"
+      description="As a Front-End developer since 10 years now, I enjoy creating beautiful apps on Javascript Frameworks."
+      :imageUrl="portrait"
+      name="Guillaume Duhan."
       title="Creating web apps."
     />
-    <Articles title="I write articles on JavaScript." />
   </div>
 </template>
 
 <script>
-import Articles from "./components/Articles.vue";
 import Main from "./components/Main.vue";
+import portrait from "../src/assets/portrait.jpg"
 
 export default {
   name: "App",
   components: {
-    Articles,
     Main
   },
   data() {
     return {
+      portrait,
       links: {
         facebook: "https://www.facebook.com/groups/javascript.paris",
         twitter: "https://www.facebook.com/groups/javascript.paris",
